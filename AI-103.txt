@@ -1,0 +1,8 @@
+AI-103
+
+C:\Users\Dell>cd C:\AI\AI-103
+C:\AI\AI-103>jupyter notebook
+
+Exercise
+
+1.Use the OpenAI SDK and the Responses API to create a chat app that connects to a model 
