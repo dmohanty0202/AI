@@ -12,7 +12,7 @@ st.set_page_config(
 st.title("🤖 Local AI Chat Application")
 st.caption("Powered by Ollama - no Azure or Microsoft Foundry required")
 
-MODEL_NAME = "llama3.2"
+MODEL_NAME = "qwen3:8b"
 
 # Initialize chat history
 if "messages" not in st.session_state:
@@ -46,7 +46,7 @@ if prompt:
 
     # Call Ollama
     response = ollama.chat(
-        model=MODEL_NAME,
+        model="qwen3:8b",
         messages=st.session_state.messages
     )
 
