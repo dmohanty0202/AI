@@ -46,7 +46,7 @@ if prompt:
 
     # Call Ollama
     response = ollama.chat(
-        model="qwen3:8b",
+        model=MODEL_NAME,
         messages=st.session_state.messages
     )
 
